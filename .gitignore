@@ -1,0 +1,6 @@
+.DS_Store
+.playwright-mcp/
+.playwright-cli/
+output/
+claude_feedback.md
+claude_feedback_lessons.md
