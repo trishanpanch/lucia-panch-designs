@@ -17,3 +17,5 @@ Then visit `http://127.0.0.1:4173`.
 The site is packaged as an Nginx container for Cloud Run. Cloud Build uses
 `cloudbuild.yaml` to build the image, push it to Artifact Registry, and deploy
 the `lucia-panch-designs` Cloud Run service.
+
+Pushes to `main` are wired to Cloud Build through a GitHub webhook trigger.
